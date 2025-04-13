@@ -25,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        //finding XML Views
+        //finding XML Views (AdapterView)
         spinner = findViewById(R.id.spinner);
 
-        //Data source for Spinner
+        //Data source for Spinner (DataSource)
         String[] courses = {"Java","Kotlin","Python"};
 
         //ArrayAdapter: used to populate the 'spinner' with items from string array resource
